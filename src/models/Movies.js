@@ -7,7 +7,7 @@ const Movie = sequelize.define('movie', {
         allowNull: false
     },
     image: {
-        type: DataTypes.BLOB,
+        type: DataTypes.STRING,
         allowNull: false
     },
     synopsis: {
